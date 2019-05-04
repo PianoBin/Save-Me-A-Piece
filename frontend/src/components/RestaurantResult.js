@@ -158,8 +158,7 @@ class RestaurantResult extends Component {
                     </ModalHeader>
                     <ModalBody>
                         <p> {this.state.restaurant.address} </p>
-                        <p> {this.state.restaurant.city},{this.state.restaurant.state}  </p>
-                        <p> {this.state.restaurant.zip_code} </p>
+                        <p> {this.state.restaurant.city}, {this.state.restaurant.state}, {this.state.restaurant.zip_code}  </p>
                         <p> Phone: {this.state.restaurant.phone_number}, Email: {this.state.restaurant.email} </p>
                         <p> M: {this.state.mondaystart}-{this.state.mondayend}</p>
                         <p> T: {this.state.tuesdaystart}-{this.state.tuesdayend}</p>

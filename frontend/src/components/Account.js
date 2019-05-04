@@ -29,7 +29,7 @@ class Account extends Component {
                 this.setState({city: response.data.data.city})
                 this.setState({state: response.data.data.state})
                 this.setState({name: response.data.data.name})
-                this.setState({phone: response.data.data.phone})
+                this.setState({phone: response.data.data.phone_number})
                 this.setState({zip_code: response.data.data.zip_code})
                 this.setState({email: response.data.data.email})
                 console.log(response.data.data);
@@ -42,7 +42,7 @@ class Account extends Component {
                 this.setState({city: response.data.data.city})
                 this.setState({state: response.data.data.state})
                 this.setState({name: response.data.data.name})
-                this.setState({phone: response.data.data.phone})
+                this.setState({phone: response.data.data.phone_number})
                 this.setState({zip_code: response.data.data.zip_code})
                 this.setState({email: response.data.data.email})
                 console.log(response.data.data);
